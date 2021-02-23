@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Describe an issue in the Uniswap Interface
+about: Describe an issue in the ZEEswap
 title: ''
 labels: bug
 assignees: ''
