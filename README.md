@@ -1,4 +1,4 @@
-# ZEEswap
+# Rexswap
 
 
 
@@ -31,8 +31,8 @@ To have the interface default to a different network when a wallet is not connec
 **Please open all pull requests against the `master` branch.** 
 CI checks will run against all PRs.
 
-## Accessing ZEEswap V1
+## Accessing Rexswap V1
 
-The ZEEswap supports swapping against, and migrating or removing liquidity from ZEEswap V1. However,
-if you would like to use ZEEswap V1, the ZEEswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
+The Rexswap supports swapping against, and migrating or removing liquidity from Rexswap V1. However,
+if you would like to use Rexswap V1, the Rexswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
 linked from the [v1.0.0 release]

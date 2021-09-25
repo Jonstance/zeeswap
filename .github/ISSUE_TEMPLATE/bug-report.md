@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Describe an issue in the ZEEswap
+about: Describe an issue in the Rexswap
 title: ''
 labels: bug
 assignees: ''

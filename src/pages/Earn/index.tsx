@@ -62,11 +62,11 @@ export default function Earn() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>zeeswap liquidity mining</TYPE.white>
+                <TYPE.white fontWeight={600}>Rexswap liquidity mining</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  Deposit your Liquidity Provider tokens to receive zee, the Zeeswap protocol governance token.
+                  Deposit your Liquidity Provider tokens to receive zee, the Rexswap protocol governance token.
                 </TYPE.white>
               </RowBetween>{' '}
               <ExternalLink
@@ -74,7 +74,7 @@ export default function Earn() {
                 href="https://google.com"
                 target="_blank"
               >
-                <TYPE.white fontSize={14}>Read more about ZEE</TYPE.white>
+                <TYPE.white fontSize={14}>Read more about REXswap</TYPE.white>
               </ExternalLink>
             </AutoColumn>
           </CardSection>

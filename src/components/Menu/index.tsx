@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Jonstance/zeeswap'
+const CODE_LINK = 'https://github.com/Jonstance/Rexswap'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -105,11 +105,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://github.com/Jonstance/zeeswap">
+          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/Jonstance/zeeswap">
+          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -117,11 +117,11 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/Jonstance/zeeswap">
+          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
             <MessageCircle size={14} />
             Discord
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/Jonstance/zeeswap">
+          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
             <PieChart size={14} />
             Analytics
           </MenuItem>

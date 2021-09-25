@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea for improving the UX of the ZEEswap
+about: Suggest an idea for improving the UX of the Rexswap
 title: ''
 labels: 'improvement'
 assignees: ''
