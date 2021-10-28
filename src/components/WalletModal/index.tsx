@@ -56,8 +56,8 @@ const HeaderRow = styled.div`
 const ContentWrapper = styled.div`
   background-color: ${({ theme }) => theme.bg2};
   padding: 2rem;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 
   ${({ theme }) => theme.mediaWidth.upToMedium`padding: 1rem`};
 `
@@ -90,7 +90,7 @@ const Blurb = styled.div`
   margin-top: 2rem;
   ${({ theme }) => theme.mediaWidth.upToMedium`
     margin: 1rem;
-    font-size: 12px;
+    font-size: 10px;
   `};
 `
 

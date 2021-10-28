@@ -25,7 +25,7 @@ export const ArrowWrapper = styled.div<{ clickable: boolean }>`
 `
 
 export const SectionBreak = styled.div`
-  height: 1px;
+  height: 5px;
   width: 100%;
   background-color: ${({ theme }) => theme.bg3};
 `
