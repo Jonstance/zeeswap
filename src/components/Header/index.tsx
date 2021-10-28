@@ -17,7 +17,7 @@ import { CountUp } from 'use-count-up'
 import { TYPE, ExternalLink } from '../../theme'
 
 import { YellowCard } from '../Card'
-import { Moon, Sun } from 'react-feather'
+import { ToggleLeft, ToggleRight } from 'react-feather'
 import Menu from '../Menu'
 
 import Row, { RowFixed } from '../Row'
@@ -411,7 +411,7 @@ export default function Header() {
         </HeaderElement>
         <HeaderElementWrap>
           <StyledMenuButton onClick={() => toggleDarkMode()}>
-            {darkMode ? <Moon size={20} /> : <Sun size={20} />}
+            {darkMode ? <ToggleRight size={20} /> : <ToggleLeft size={20} />}
           </StyledMenuButton>
           <Menu />
         </HeaderElementWrap>
