@@ -83,7 +83,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Jonstance/Rexswap'
+const CODE_LINK = 'https://github.com/Requiza-Team/Rexswap'
 
 export default function Menu() {
 
