@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { BookOpen, Code, Info, MessageCircle } from 'react-feather'
+import { Code, Info, Twitter, Send, Map } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -101,21 +101,25 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
-            <Info size={14} />
-            About
+          <MenuItem id="link" href="https://twitter.com/requiza_?s=11">
+            <Twitter size={14} />
+            Twitter
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
-            <BookOpen size={14} />
-            Docs
+          <MenuItem id="link" href="https://t.me/joinchat/3_dHSbF2_og3Zjdk">
+            <Send size={14} />
+            Telegram
           </MenuItem>
           <MenuItem id="link" href={CODE_LINK}>
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/Jonstance/Rexswap">
-            <MessageCircle size={14} />
-            Discord
+          <MenuItem id="link" href="https://requiza.medium.com/">
+            <Map size={14} />
+            Medium
+          </MenuItem>
+          <MenuItem id="link" href="https://requiza.io/#about">
+            <Info size={14}/>
+            About Requiza
           </MenuItem>
         </MenuFlyout>
       )}
